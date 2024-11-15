@@ -121,15 +121,11 @@ bool = isEvenf( NaN );
 var randu = require( '@stdlib/random-array-discrete-uniform' );
 var isEvenf = require( '@stdlib/math-base-assert-is-evenf' );
 
-var bool;
-var x;
+var x = randu( 100, 0, 100 );
+
 var i;
-
-x = randu( 100, 0, 100 );
-
 for ( i = 0; i < 100; i++ ) {
-    bool = isEvenf( x[ i ] );
-    console.log( '%d is %s', x[ i ], ( bool ) ? 'even' : 'not even' );
+    console.log( '%d is %s', x[ i ], ( isEvenf( x[ i ] ) ) ? 'even' : 'not even' );
 }
 ```
 
@@ -168,6 +164,8 @@ for ( i = 0; i < 100; i++ ) {
 Tests if a finite single-precision floating-point number is an even number.
 
 ```c
+#include <stdbool.h>
+
 bool out = stdlib_base_is_evenf( 1.0f );
 // returns false
 
@@ -202,6 +200,7 @@ bool stdlib_base_is_evenf( const float x );
 ### Examples
 
 ```c
+#include "stdlib/math/base/assert/is_evenf.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
