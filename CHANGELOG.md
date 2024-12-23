@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`2ea848b`](https://github.com/stdlib-js/stdlib/commit/2ea848b62b686e1e9d861f7df25ece23a7d80798) - **style:** update to use tabs for indentation _(by Philipp Burckhardt)_
 -   [`f13ddb2`](https://github.com/stdlib-js/stdlib/commit/f13ddb2eb01e5520b6fa98634bbf9de76793036f) - **style:** use spaces for alignment in C comments _(by Philipp Burckhardt)_
 -   [`e450426`](https://github.com/stdlib-js/stdlib/commit/e450426813957ec4de5e31434edb969741db7c94) - **bench:** add missing native suffix _(by Philipp Burckhardt)_
 -   [`15dff30`](https://github.com/stdlib-js/stdlib/commit/15dff30135c09d5afa4b81c0ef662c68b65b6013) - **refactor:** use macros in addon and update examples in `math/base/assert/is-evenf` [(#3115)](https://github.com/stdlib-js/stdlib/pull/3115) _(by Gunj Joshi, Athan Reines)_
