@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.1.0">
 
-## Unreleased (2025-08-11)
+## 0.1.0 (2026-01-30)
 
 <section class="features">
 
@@ -32,9 +32,10 @@
 
 <details>
 
+-   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`3eea4f7`](https://github.com/stdlib-js/stdlib/commit/3eea4f78d4cfeae6f9dbf10b0c21175a65e5e07b) - **fix:** add missing includes _(by Athan Reines)_
--   [`ef16301`](https://github.com/stdlib-js/stdlib/commit/ef163012ebdb76aca762baa0a65118bcf6a866e9) - **docs:** replace manual `for` loop in examples [(#6675)](https://github.com/stdlib-js/stdlib/pull/6675) _(by Harsh)_
--   [`c912eff`](https://github.com/stdlib-js/stdlib/commit/c912eff7b1a6f05304f2f003021b4e47ad1074ab) - **bench:** update random value generation [(#6676)](https://github.com/stdlib-js/stdlib/pull/6676) _(by Harsh)_
+-   [`ef16301`](https://github.com/stdlib-js/stdlib/commit/ef163012ebdb76aca762baa0a65118bcf6a866e9) - **docs:** replace manual `for` loop in examples [(#6675)](https://github.com/stdlib-js/stdlib/pull/6675) _(by Harsh Yadav)_
+-   [`c912eff`](https://github.com/stdlib-js/stdlib/commit/c912eff7b1a6f05304f2f003021b4e47ad1074ab) - **bench:** update random value generation [(#6676)](https://github.com/stdlib-js/stdlib/pull/6676) _(by Harsh Yadav)_
 -   [`2ea848b`](https://github.com/stdlib-js/stdlib/commit/2ea848b62b686e1e9d861f7df25ece23a7d80798) - **style:** update to use tabs for indentation _(by Philipp Burckhardt)_
 -   [`f13ddb2`](https://github.com/stdlib-js/stdlib/commit/f13ddb2eb01e5520b6fa98634bbf9de76793036f) - **style:** use spaces for alignment in C comments _(by Philipp Burckhardt)_
 -   [`e450426`](https://github.com/stdlib-js/stdlib/commit/e450426813957ec4de5e31434edb969741db7c94) - **bench:** add missing native suffix _(by Philipp Burckhardt)_
@@ -55,7 +56,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 -   Athan Reines
 -   Gunj Joshi
--   Harsh
+-   Harsh Yadav
 -   Philipp Burckhardt
 
 </section>
