@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isEvenf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-evenf@esm/index.mjs';
+import isEvenf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-evenf@v0.1.0-esm/index.mjs';
 ```
 
 #### isEvenf( x )
@@ -107,7 +107,7 @@ bool = isEvenf( NaN );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import isEvenf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-evenf@esm/index.mjs';
+import isEvenf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-evenf@v0.1.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
