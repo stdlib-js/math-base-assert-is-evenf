@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-assert-is-evenf",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Test if a finite single-precision floating-point number is an even number.",
   "license": "Apache-2.0",
   "author": {
@@ -46,10 +46,10 @@
     "@stdlib/napi-create-int32": "^0.0.3",
     "@stdlib/napi-export": "^0.3.1",
     "@stdlib/number-float64-base-to-float32": "^0.2.2",
-    "@stdlib/utils-library-manifest": "^0.2.3"
+    "@stdlib/utils-library-manifest": "^0.2.4"
   },
   "devDependencies": {
-    "@stdlib/assert-is-boolean": "^0.2.2",
+    "@stdlib/assert-is-boolean": "^0.2.3",
     "@stdlib/boolean-ctor": "^0.2.3",
     "@stdlib/console-log-each-map": "^0.1.0",
     "@stdlib/constants-float32-ninf": "^0.2.2",
@@ -58,11 +58,11 @@
     "@stdlib/random-array-discrete-uniform": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.2",
     "@stdlib/string-format": "^0.2.3",
-    "@stdlib/utils-try-require": "^0.2.2",
+    "@stdlib/utils-try-require": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
