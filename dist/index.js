@@ -1,5 +1,5 @@
-"use strict";var u=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var s=u(function(v,i){
-var a=require('@stdlib/math-base-assert-is-integerf/dist'),t=require('@stdlib/number-float64-base-to-float32/dist');function n(e){return a(t(t(e)/2))}i.exports=n
-});var o=s();module.exports=o;
+"use strict";var a=function(e,r){return function(){try{return r||e((r={exports:{}}).exports,r),r.exports}catch(u){throw (r=0, u)}};};var s=a(function(c,i){
+var n=require('@stdlib/math-base-assert-is-integerf/dist'),t=require('@stdlib/number-float64-base-to-float32/dist');function o(e){return n(t(t(e)/2))}i.exports=o
+});var f=s();module.exports=f;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
